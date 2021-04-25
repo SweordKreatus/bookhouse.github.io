@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.size-45{
+  font-size: 45px;
+}
+
+.size-35{
+  font-size: 35px;
+}
+
+.size-25{
+  font-size: 25px;
+}
+
+.white-title{
+  color: #ffffff;
+}
+
+.blue-title{
+  color: #0038a9;
+}
+
+.red-title{
+  color: #ce1126;
+}
+
+.gold-title{
+  color: gold;
+}
+
+.green-title{
+  color: #00ca11;
+}
+
+.highlight{
+  font-weight: bolder;
+}
+
+.title-center{
+  text-align: center;
+}
+
+.btn-action{
+  background: rgb(10,100,100);
+  color: #ffffff;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.btn-action:hover{
+  background: rgb(0, 131, 131);
+  cursor: pointer;
+}
+
+.btn-action-blue{
+  background: rgb(10,100,100);
+  color: #ffffff;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.btn-action-blue:hover{
+  background: #002163;
+  cursor: pointer;
+}
+
+/* Admin Panel CSS STyle Codes......*/
+#indx{
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    background-image: url("../assets/assets1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.indx{
+    margin: 10% 13%;
+}
+
+.indx .form{
+    width: 420px;
+    /*border: 5px solid #0038a8;*/
+    margin: 5% 30%;
+    background: #ffffff9a;
+    text-align: center;
+    padding-bottom: 2.5%;
+    border-radius: 30px;
+}
+
+.indx .form .form-title{
+    line-height: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    background: rgba(0, 153, 153,1);
+    color: #ffffff;
+    margin-bottom: 4%;
+    padding: 2%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.indx .form .form-login{
+    list-style-type: none;
+    text-align: none;
+}
+
+.indx .form .form-login li{
+    margin: 5px;
+}
+
+.indx .form .form-login li i{
+    width: 80%;
+    font-size: 25px;
+    padding: 7px 0px 7px 20px;
+    background: #ffffff;
+    text-align: justify;
+    border-radius: 15px;  
+}
+
+
+.indx .form .form-login input{
+    width: 80%;
+    font-size: 15px;
+    padding: 8px;
+    border-style: none;
+    margin-left: 5px;
+    background: #ffffff;
+    outline: none;
+}
+
+.indx .form .form-login button{
+    width: 85%;
+    line-height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: rgb(10,100,100);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
+    border-style: none;
+    outline: none;
+}
+
+.indx .form .form-login button:hover {
+    background: rgb(0, 153, 153);
+    cursor: pointer;
+}
+
+.indx .form .form-extra{
+    padding-top: 10px;
+}
+
+.indx .form .form-extra a{
+    color: #000000;
+    text-decoration: none;
+}
+.indx .form .form-extra a:hover{
+    color: #003192;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.form #link{
+  color: black;
+  text-decoration: none;
+}
+
+.indx .form #sign-btn{
+    cursor: pointer;
+    color: #003192;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/* Dashboard......................*/
+
+#dash{
+  background-color: #e7e7e7;
+}
+
+.dash-content{
+	margin-left: 233px;
+	width: 82.7%;
+	height: 600px;
+  padding-top: 70px;
+}
+
+.dash-container{
+  min-height: 80vh;
+}
+
+.dash-container h1{
+	padding: 0px 10px;
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.dash-container span{
+	border-bottom: 4px solid rgb(10,100,100);
+	padding: 0px 10px 5px;
+}
+
+.dash-container .dash-wrapper{
+	margin: 15px;
+}
+
+.dash-container .dash-wrapper .dash-wrapper-box{
+	text-align: center;
+}
+
+.dash-container .dash-wrapper .dash-wrapper-box li{
+	background: rgb(10,100,100);
+	width: 30%;
+	display: inline-block;
+	margin: 10px;
+  height: 495px;
+	padding: 5px;
+	box-shadow: 1px 0px 5px #000;
+}
+
+.dash-container .dash-wrapper .dash-wrapper-box li img{
+  padding: 2px;
+  width:315px;
+  height:380px;
+}
+
+.dash-container .dash-board{
+  padding: 10px 20px;
+}
+
+.dash-container .dash-board ul{
+  text-align: center;
+  list-style-type: none;
+}
+
+.dash-container .dash-board ul li{
+  background: rgb(10,100,100);
+  display:inline-table;
+  width: 22.5%;
+  height: 100px;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 0px 5px;
+  border: 2px solid rgb(10,50,50);
+  margin: 5px;
+}
+
+.dash-container .dash-board ul li p{
+  text-align: center;
+  padding-top: 5px;
+}
+.dash-container .dash-board ul li h3{
+  border: 2px solid  rgb(10,50,50);
+  padding: 0px 15px;
+  width: 90%;
+  background: #ffffff;
+  color: red;
+  line-height: 55px;
+  margin-top: -10px;
+  font-size: 40px;
+}
+
+/* Book Records......................*/
+
+#record{
+  background-color: #e7e7e7;
+}
+
+.record-content{
+	margin-left: 233px;
+	width: 82.7%;
+	height: 600px;
+  padding-top: 70px;
+}
+
+.record-container{
+  min-height: 80vh;
+}
+
+.record-container h1{
+	padding: 0px 10px;
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.record-container .record-table{
+  padding: 10px;
+  text-align: center;
+}
+
+.record-container .record-table table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.record-container .record-table tr,th,td{
+  border: 2px solid rgb(10,50,50);
+}
+
+.record-container .record-table tr:nth-child(even) {
+  background: #ffffff;
+}
+
+.record-container .record-table table th{
+  background: rgb(10,100,100);
+  line-height: 30px;
+  color: gold;
+  text-transform: uppercase;
+  padding: 0px 5px;
+}
+
+.record-container .record-table table td{
+  line-height: 20px;
+}
+
+.record-container .record-table table td a{
+  text-decoration: none;
+  color: rgb(10,100,100);
+  padding: 5px;
+}
+
+
+/* Book Records......................*/
+
+#user{
+  background-color: #e7e7e7;
+}
+
+.user-content{
+	margin-left: 233px;
+	width: 82.7%;
+	height: 600px;
+  padding-top: 70px;
+}
+
+.user-container{
+  min-height: 80vh;
+}
+
+.user-container h1{
+	padding: 0px 10px;
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.user-container .user-table{
+  padding: 10px;
+  text-align: center;
+}
+
+.user-container .user-table table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-container .user-table tr,th,td{
+  border: 2px solid rgb(10,50,50);
+}
+
+.user-container .user-table tr:nth-child(even) {
+  background: #ffffff;
+}
+
+.user-container .user-table table th{
+  background: rgb(10,100,100);
+  line-height: 30px;
+  color: gold;
+  text-transform: uppercase;
+  padding: 0px 5px;
+}
+
+.user-container .user-table table td{
+  line-height: 20px;
+  padding: 5px;
+}
+
+.user-container .user-table table td a{
+  text-decoration: none;
+  color: rgb(10,100,100);
+  padding: 5px;
+}
+
+/* Manage Page Records......................*/
+
+#manage{
+  background-color: #e7e7e7;
+}
+
+.manage-content{
+	margin-left: 233px;
+	width: 82.7%;
+	height: 600px;
+  padding-top: 70px;
+}
+
+.manage-container{
+  min-height: 80vh;
+}
+
+.manage-container h1{
+	padding: 0px 10px;
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.manage-container .manage-feedback{
+  padding: 5px 10px 10px;
+  margin: 10px 20px 0px;
+}
+
+
+.manage-container .manage-feedback ul{
+  text-align: center;
+  list-style-type: none;
+  background: rgb(10,100,100);
+  height: 360px;
+  border-radius: 5px;
+}
+
+.manage-container .manage-feedback ul h2{
+  padding-bottom: 5px;
+  color: gold;
+}
+
+.manage-container .manage-feedback ul li{
+  display: inline-block;
+  width: 30%;  
+  background: #ffffffdc;
+  margin: 0px 10px; 
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.manage-container .manage-feedback li #feed{
+  margin: 5px 2px;
+  text-align: center;
+  min-height: 250px;
+  max-height: 235px;
+  overflow: auto;
+}
+
+.manage-container .manage-feedback table{
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+.manage-container .manage-feedback .table-list{
+  margin-top: 10px;
+  max-height: 304px;
+  overflow: auto;
+}
+
+
+.manage-container .manage-feedback table th{
+  border: 2px solid rgb(10,50,50);
+  line-height: 30px;
+  background: gold;
+  text-transform: uppercase;
+}
+
+.manage-container .manage-feedback table td{
+  text-align: center;
+  line-height: 25px;
+}
+
+.manage-container .manage-feedback table td a{
+  text-decoration: none;
+  color: rgb(10,100,100);
+}
+
+.manage-container .manage-feedback table td a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.manage-container .manage-feedback tr:nth-child(even) {
+  background: #ddd;
+}
+
+.manage-container .manage-feedback button{
+  margin: 10px 5px 5px;
+  border: none;
+  width: 49%;
+  font-size: 25px;
+  line-height: 35px;
+  border-radius: 3px;
+  background: rgb(10,100,100);
+  color: gold;
+  outline-color: rgb(10,100,100);
+}
+
+.manage-container .manage-feedback button:hover{
+  background: rgb(0, 153, 153);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.manage-container .manage-books{
+  padding: 5px 10px 10px;
+  margin: 10px 20px 0px;
+}
+
+.manage-container .manage-books table{
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+.manage-container .manage-books .table-list{
+  margin-top: 10px;
+  max-height: 304px;
+  overflow: auto;
+}
+
+.manage-container .manage-books ul{
+  list-style-type: none;
+}
+
+.manage-container .manage-books ul li{
+  display: inline-flex;
+  line-height: 40px;
+}
+
+.manage-container .manage-books ul li + li{
+  float: right;
+}
+
+.manage-container .manage-books button{
+  border: none;
+  background: rgba(0, 100, 100);
+  padding: 5px 15px;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.manage-container .manage-books .table-list button:hover{
+  background: rgb(0, 153, 153);
+}
+
+
+.manage-container .manage-books table th{
+  border: 2px solid rgb(10,50,50);
+  line-height: 30px;
+  background: rgb(10,100,100);
+  color: gold;
+  text-transform: uppercase;
+}
+
+.manage-container .manage-books table td{
+  text-align: center;
+  line-height: 25px;
+}
+
+.manage-container .manage-books table td a{
+  text-decoration: none;
+  color: rgb(10,100,100);
+}
+
+.manage-container .manage-books table td a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.manage-container .manage-books tr:nth-child(even) {
+  background: #ddd;
+}
+
+#settings{
+	background-color: #e7e7e7;
+}
+
+
+.settings-content{
+	margin-left: 233px;
+	width: 82.7%;
+	height: 600px;
+	padding-top: 70px;
+}
+
+.settings-content .settings-container{
+  padding: 20px;
+  min-height: 80vh;
+}
+
+.settings-content .settings-container .settings-details{
+	padding: 30px;
+}
+
+.settings-content .settings-container .settings-details table tr td{
+  padding: 20px 0px;
+  border: none;
+	border-bottom: 2px solid rgb(10, 100, 100);
+}
+
+/* Footer.......................*/
+.footer{
+	text-align: center;
+}
+
+.footer-content{
+	width: auto;
+  	padding: 10px;
+  	background: rgb(10,80,80);
+  	margin-top: 10px;
+  	color: gold;
+}

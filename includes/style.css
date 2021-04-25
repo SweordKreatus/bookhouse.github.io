@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+	padding: 0;
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #e7e7e7;
+}
+
+.signin{   
+	padding: 5px;
+	position: relative;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.signin .signin-right{
+    text-align: right; 
+}
+
+.signin .signin-right #signin-left{
+	text-align: left;
+}
+
+.signin .signin-right button{
+	border: none;
+	color: #000;
+	padding: 10px 20px;
+    text-decoration: none;
+    background: #e7e7e7;
+    font-size: 20px;
+}
+
+.signin .signin-right button:hover{
+	background-color: rgb(10,100,100);
+	color: gold;
+}
+
+.navBar{
+	background: rgb(10,100,100);
+	height: 56px;
+	width: 100%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.navBar .navBar-container{
+	line-height: 56px;
+    width: 100%;
+    border-bottom: 5px solid gold;
+}
+
+.navBar .navBar-container .navBar-btn{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.navBar .navBar-container .navBar-btn a{
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	padding: 18px 30px;
+	text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navBar .navBar-container .navBar-btn a:hover{
+	background: rgb(7, 83, 83);
+    color: gold;
+}
+
+.feature{
+	margin: 15px 0px;
+	height: 650px;
+	/*padding-top: 70px;*/
+}
+
+.feature-container h2{
+	padding: 0px 10px;
+	padding-top: 70px;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.feature .feature-container span{
+	border-bottom: 5px solid rgb(10,100,100);
+	padding: 5px 10px;
+}
+
+.feature .feature-container .feature-wrapper{
+	margin: 15px;
+}
+
+.feature .feature-container .feature-wrapper .feature-wrapper-box{
+	text-align: center;
+}
+
+.feature .feature-container .feature-wrapper .feature-wrapper-box li{
+	background: #fff;
+	width: 30%;
+	display: inline-block;
+	margin: 10px;
+	height: 480px;
+	padding: 5px;
+	box-shadow: 1px 0px 5px #000;
+}
+
+.feature .feature-container .feature-wrapper .feature-wrapper-box img{
+	width: 95%;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #d1d1d1;
+}
+
+.feedback{
+	margin: 15px 0px;
+	height: 650px;
+	background-image: url("../assets/assets2.jpg");
+	background-attachment: fixed;
+	background-position: bottom;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.feedback-container span{
+	border-bottom: 5px solid #ffffff;
+	padding: 5px 10px;
+}
+
+
+.feedback-container h2{
+	padding: 0px 10px;
+	padding-top: 70px;
+	color: gold;
+	text-shadow: 2px 2px 3px #000;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.feedback-row{
+	margin: 0px 15px;
+}
+
+.feedback-row-box{
+	text-align: center;
+	list-style-type: none;}
+
+.feedback-row-box li{
+	width: 25%;
+	max-height: 400px;
+	padding: 25px;
+	margin: 0 10px;
+	background: #ffffffce;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.feedback-row-box ul{
+  text-align: center;
+  list-style-type: none;
+  background: rgb(10,100,100);
+  height: 360px;
+  border-radius: 5px;
+}
+
+.feedback-row-box ul h2{
+  padding-bottom: 5px;
+  color: gold;
+}
+
+.feedback-row-box ul li{
+  display: inline-block;
+  width: 30%;  
+  background: #ffffffdc;
+  margin: 0px 10px; 
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.feedback-row-box li #feed{
+  margin: 5px 2px;
+  text-align: center;
+  min-height: 280px;
+  max-height: 250px;
+  overflow: auto;
+}
+
+
+
+.contact .contact-container span{
+	border-bottom: 5px solid rgb(10,100,100);
+	padding: 5px 10px;
+}
+
+.contact .contact-container h2{
+    font-size: 35px;
+	margin-bottom: 30px;
+}
+
+.contact .contact-container {
+    padding: 0px 10px;
+	padding-top: 70px;
+	text-align: center;
+}
+
+.contact .contact-container .contact-container-row{
+    padding-top: 10px;
+}
+
+.contact .contact-container .contact-container-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact .contact-container .contact-container-row .contact-row-column{
+    padding-top: 30px;
+	float: left;
+  	width: 50%;
+  	height: 430px;
+  	text-align: center;
+    border-radius: 20px;
+}
+
+.contact .contact-container .contact-container-row .contact-row-column-msgcontext{
+	padding: 20px 100px;
+	display: inline-block;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+
+.contact .contact-container .contact-container-row .contact-row-column-msgcontext label input{
+	font-size: 18px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    width: 97%;
+    border-radius: 3px;
+    border: none;
+    outline-color: rgba(10,100,100);
+    margin-top: 3px;
+}
+
+.contact .contact-container .contact-container-row .contact-row-column-msgcontext label textarea{
+	font-size: 18px;
+	padding: 5px 10px;
+    width: 97%;
+    border-radius: 3px;
+    border: none;
+    outline-color: rgba(10,100,100);
+    margin-top: 3px;
+}
+
+
+.contact .contact-container .contact-row-column button{
+	width: 85%;
+	line-height: 40px; 
+	padding: 5px;
+    border-style: none; 
+    border-radius: 5px;
+	background: gold;
+	font-size: 15px;
+    cursor: pointer;
+    font-size: 25px
+}
+
+.contact .contact-container .contact-row-column button:hover{ 
+    background: rgb(2, 161, 161);
+    color: #ffffff;
+    outline: none;
+}
+
+
+
+/* Footer */
+.footer{
+  	padding: 10px;
+  	text-align: center;
+  	background: rgb(10,100,100);
+  	margin-top: 10px;
+  	color: gold;
+}
+
+#active{
+	font-weight: bold;
+	color: gold;
+	background: rgba(10,100,100,1)
+}
+
